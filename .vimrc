@@ -70,8 +70,8 @@ nnoremap <F10> <C-W><C-L>
 inoremap <F10> <esc><C-W><C-L>
 
 " show current directory tree
-nnoremap <F11> <esc> :Vex <CR> 
-inoremap <F11> <esc> :Vex <CR>
+nnoremap <F12> <esc> :Vex <CR> 
+inoremap <F12> <esc> :Vex <CR>
 
 " allow fast scrolling
 inoremap <C-F> <esc><C-F>
@@ -98,18 +98,18 @@ Plugin 'tmhedberg/SimpylFold'
 
 
 au BufNewFile,BufRead *.py
-    \ set tabstop=4
-    \ set softtabstop=4
-    \ set shiftwidth=4
-    \ set textwidth=79
-    \ set expandtab
-    \ set autoindent
-    \ set fileformat=unix
+    \ set tabstop=4	  |
+    \ set softtabstop=4   |
+    \ set shiftwidth=4    |
+    \ set textwidth=79    |
+    \ set expandtab	  |
+    \ set autoindent	  |
+    \ set fileformat=unix |
 
 au BufNewFile,BufRead *.js, *.html, *.css
-    \ set tabstop=2
-    \ set softtabstop=2
-    \ set shiftwidth=2
+    \ set tabstop=2	|
+    \ set softtabstop=2 |
+    \ set shiftwidth=2  |
 
 Plugin 'vim-scripts/indentpython.vim'
 
